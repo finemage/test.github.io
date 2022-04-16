@@ -12,11 +12,11 @@ canvas{background: black; display: block; margin: 0 auto;}
 <script>
     let canvas = document.getElementById("myCanvas");
     let ctx = canvas.getContext("2d");
-    let x = Math.floor((Math.random() * (canvas.width-39))+40);
-    let y = Math.floor((Math.random() * (canvas.height-39))+40);
-    let dx = 1;
-    let dy = -1;
-    let ballRadius = 10;
+    let x = Math.floor((Math.random() * (canvas.width-79))+80);
+    let y = Math.floor((Math.random() * (canvas.height-79))+80);
+    let dx = 2;
+    let dy = -2;
+    let ballRadius = 20;
 
     function drawBall() {
         ctx.beginPath();
