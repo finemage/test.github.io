@@ -8,6 +8,10 @@ canvas{background: black; display: block; margin: 0 auto;}
 </style>
 </head>
 <body>
+    <h3>페이지 내부 mp3파일 재생</h3>
+    <p>audio 태그를 이용한 audio 재생 - autoplay</p>
+    <audio autoplay controls> <source src="노동요.mp3" type="audio/mp3"> </audio>
+
 <canvas id="myCanvas" width="1200" height="800"></canvas>
 <script>
     let canvas = document.getElementById("myCanvas");
