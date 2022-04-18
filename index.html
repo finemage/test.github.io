@@ -4,9 +4,6 @@
 <meta charset="utf-8" />
 <title>fine_mage's notepad</title>
 <style>
-    background-image : url('source.jpg');
-    background-size : cover;
-    background-repeat : no-repeat;
     canvas{background: black; display: block; margin: 0 auto;}
 </style>
 </head>
@@ -20,8 +17,8 @@
 <script>
     let canvas = document.getElementById("myCanvas");
     let ctx = canvas.getContext("2d");
-    let x = Math.floor((Math.random() * (canvas.width-79))+80);
-    let y = Math.floor((Math.random() * (canvas.height-79))+80);
+    let x = Math.floor((Math.random() * (canvas.width-40))+80);
+    let y = Math.floor((Math.random() * (canvas.height-40))+80);
     let dx = 2;
     let dy = -2;
     let ballRadius = 20;
